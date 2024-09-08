@@ -20,7 +20,7 @@ const Nav = () => {
           Jobs
           <span className="block w-0 h-[2px] bg-[#6857f6] transition-all group-hover:w-full"></span>
         </p>
-        <p className="relative group hover:text-[#a549e2] cursor-pointer]">
+        <p className="relative group hover:text-[#a549e2] cursor-pointer">
           Events
           <span className="block w-0 h-[2px] bg-[#6857f6] transition-all group-hover:w-full"></span>
         </p>
