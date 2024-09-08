@@ -82,24 +82,24 @@ const GetStarted = () => {
               </div>
               <div className="w-full md:w-1/2 md:pl-6">
                 <div className="text-purple-400 mb-2">01</div>
-                <h3 className="text-2xl font-bold mb-4">Discover Job Openings</h3>
+                <h3 className="text-2xl font-bold mb-4">Profile Management</h3>
                 <p className="text-gray-400">
-                  Start by searching for job openings using our comprehensive search engine. Simply enter relevant keywords, location, and other criteria to find the positions that match your interests and qualifications.
+                  Efficiently fill profile details by entering personal information, skills, experience, and preferences to optimize job matching and recommendations.
                 </p>
               </div>
             </div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {['Job search', 'Salary estimate', 'Read reviews', 'Apply and connect'].map((step, index) => (
+            {['AI Quiz', 'Skill Gap Analysis', 'Recommendations', 'Community & peer support'].map((step, index) => (
               <div key={index} className={`${activeStep === index + 1 ? 'border-t-2 border-purple-500' : ''} pt-4`}>
                 <div className="text-purple-400 mb-2">{String(index + 1).padStart(2, '0')}</div>
                 <h4 className="text-xl font-semibold mb-2">{step}</h4>
                 <p className="text-gray-400">
-                  {index === 0 && 'Begin your job search by exploring a wide range of job openings.'}
-                  {index === 1 && 'Provide your profile details to receive a salary estimate.'}
-                  {index === 2 && 'Gain valuable insights about potential employers.'}
-                  {index === 3 && 'Connect with employers, attend interviews.'}
+                  {index === 0 && 'An AI-driven questionnaire analyzes profile preferences to recommend personalized job opportunities and skill development pathways for job seekers.'}
+                  {index === 1 && 'Skill gap analysis identifies job seekers competency gaps and recommends targeted training to bridge them for desired job roles.'}
+                  {index === 2 && 'AI-driven recommendation system analyzes user profiles, skills, and preferences to suggest tailored job opportunities and relevant training courses.'}
+                  {index === 3 && 'A platform for job seekers to connect, share experiences, ask questions, and receive peer and mentor support through forums.'}
                 </p>
               </div>
             ))}

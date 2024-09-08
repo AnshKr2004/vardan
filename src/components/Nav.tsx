@@ -9,7 +9,7 @@ const Nav = () => {
   };
 
   return (
-    <div className="py-5 text-white bg-[#0d0e11] flex justify-between items-center px-6 md:px-12 lg:px-20">
+    <div className="py-5 text-white bg-[#0d0e11] w-screen flex justify-between items-center px-6 md:px-12 lg:px-20">
       {/* Logo */}
       <div className="text-2xl md:text-4xl font-semibold">
         <p>Vardan</p>
