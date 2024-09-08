@@ -25,9 +25,9 @@ const Jobboard = () => {
       }, [jobCards.length]);
 
     return (
-        <>
+        <div className='bg-[#0d0e11] w-screen flex flex-col items-center px-4 text-white min-h-screen'>
             {/* About section */}
-            <div className="relative w-full max-w-2xl pt-16 text-center">
+            <div className="relative w-full max-w-2xl text-center">
                 <p className="bg-clip-text text-transparent bg-gradient-to-b from-[#6857f6] to-[#b04aff] font-bold text-xl sm:text-sm">
                     ABOUT JOBBOARD
                 </p>
@@ -39,9 +39,9 @@ const Jobboard = () => {
                     </p>
                 </h2>
                 <p className="text-[20px] font-semibold font-sans text-white">
-                    Receive a customized salary approximation
-                    <br /> based on your profile. Access reviews for
-                    <br /> more than 600,000 companies worldwide.
+                    Receive a customized AI analysis based on
+                    <br />  your profile. Access communities & reviews from
+                    <br /> others for self development.
                 </p>
             </div>
 
@@ -88,7 +88,7 @@ const Jobboard = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         <FeatureCard
                             icon={<Users className="w-8 h-8 text-purple-400" />}
-                            title="Future of Job Hunting"
+                            title="AI Job Hunting"
                             description="Say goodbye to the traditional job search process and step into the future of employment opportunities."
                         />
                         <FeatureCard
@@ -98,13 +98,13 @@ const Jobboard = () => {
                         />
                         <FeatureCard
                             icon={<Smile className="w-8 h-8 text-purple-400" />}
-                            title="Be unique"
-                            description="Craft a detailed profile that effectively showcases your unique skills, past experiences, and notable accomplishmen."
+                            title="Resume Wizard"
+                            description="Craft a detailed Resume through AI that effectively showcases your unique skills, experiences, and notable accomplishments."
                         />
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 
