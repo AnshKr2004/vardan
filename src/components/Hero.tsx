@@ -21,11 +21,11 @@ export default function Hero() {
             </div>
           </div>
 
-          <h1 className="md:text-6xl text-4xl text-pretty font-sans font-medium mb-2 text-center">
+          <h1 className="md:text-6xl text-3xl text-pretty font-sans font-medium mb-2 text-center">
             We know the way to success.
           </h1>
 
-          <p className="md:text-6xl text-4xl font-sans font-medium text-[#848484] mb-4 text-center">
+          <p className="md:text-6xl text-3xl font-sans font-medium text-[#848484] mb-4 text-center">
             Find and become a professional.
           </p>
           <p className="text-[18px] font-sans font-medium mb-20 md:mb-32 text-center">
@@ -51,9 +51,9 @@ export default function Hero() {
             </button>
           </div>
         </div>
-      </div>
 
-      <Jobboard/>
+        <Jobboard/>
+      </div>
     </>
   );
 }

@@ -6,7 +6,7 @@ import Nav from "../components/Nav"
 
 const Home = () => {
   return (
-    <div className=" overflow-hidden">
+    <div className=" overflow-hidden scroll-smooth">
         <Nav/>
         <Hero/>
         <GetStarted/>
