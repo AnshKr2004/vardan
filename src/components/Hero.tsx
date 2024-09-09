@@ -1,5 +1,6 @@
 import { Search, ArrowRight } from "lucide-react";
 import blur from "../assets/blur.svg";
+import Jobboard from "./Jobboard";
 
 
 export default function Hero() {
@@ -20,14 +21,14 @@ export default function Hero() {
             </div>
           </div>
 
-          <h1 className="text-4xl text-pretty font-sans font-medium mb-2 text-center">
-            We know the way to <br /> success.
+          <h1 className="md:text-6xl text-4xl text-pretty font-sans font-medium mb-2 text-center">
+            We know the way to success.
           </h1>
 
-          <p className="text-4xl font-sans font-medium text-[#848484] mb-4 text-center">
+          <p className="md:text-6xl text-4xl font-sans font-medium text-[#848484] mb-4 text-center">
             Find and become a professional.
           </p>
-          <p className="text-[18px] font-sans font-medium mb-6 text-center">
+          <p className="text-[18px] font-sans font-medium mb-20 md:mb-32 text-center">
             A successful business needs a qualified team of people.
           </p>
 
@@ -37,7 +38,7 @@ export default function Hero() {
           </div>
 
           {/* Search input */}
-          <div className="relative mt-7 z-10">
+          <div className="relative mt-7 z-10 md:mx-72">
             <input
               type="text"
               placeholder="Job title"
@@ -51,6 +52,8 @@ export default function Hero() {
           </div>
         </div>
       </div>
+
+      <Jobboard/>
     </>
   );
 }
