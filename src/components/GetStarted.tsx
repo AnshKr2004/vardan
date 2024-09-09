@@ -3,14 +3,13 @@ import { useState } from 'react'
 
 const GetStarted = () => {
 
-  const [activeStep, setActiveStep] = useState(1)
+  const [activeStep] = useState(1)
   const [formData, setFormData] = useState({
     fullName: '',
     email: '',
     position: ''
   })
 
-  setActiveStep(1)
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     console.log('Form submitted:', formData)
