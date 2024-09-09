@@ -25,7 +25,7 @@ const Jobboard = () => {
   }, [jobCards.length]);
 
   return (
-    <div className='bg-[#0d0e11] w-screen flex flex-col items-center px-4 text-white min-h-screen'>
+    <div className='bg-[#0d0e11] w-screen flex flex-col items-center px-4 text-white min-h-screen md:mt-28 mt-40'>
       <div className='md:flex justify-between gap-48'>
         <div>
           {/* About section */}
@@ -57,7 +57,7 @@ const Jobboard = () => {
 
         <div>
           {/* Job listings */}
-          <div className="w-full max-w-2xl mt-12">
+          <div className="w-full max-w-2xl mt-36 md:mt-0">
             <div className="flex justify-between items-center mb-6">
               <h3 className="text-2xl font-semibold">Jobs</h3>
               <a href="#" className="text-purple-400">
